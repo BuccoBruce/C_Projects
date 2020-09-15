@@ -103,7 +103,7 @@ int main (void)
     {
         printf("Please enter a name (q to quit)\n");
         scanf("%s", lastName);
-        char* tmpName = strdup(lastName);
+        char* tmpName = strdup(lastName);   //Duplicate string to temporary string so as to not overwrite desired input
         if (lastName[0] == 'q')
             break;
         else

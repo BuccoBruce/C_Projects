@@ -3,10 +3,14 @@
 #include <stdlib.h>
 #include <string.h>
 
+
+
 struct Node{
     char *name;
     struct Node *next;
 };
+
+const int N = 26;
 
 void printList(struct Node *n)
 {
